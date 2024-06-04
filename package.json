@@ -1,0 +1,26 @@
+{
+  "name": "jsb-codealong-node-demo",
+  "version": "1.0.0",
+  "description": "Demo code for the Node.js codealong.",
+  "type": "module",
+  "author": "Hackbright Academy",
+  "license": "MPL-2.0",
+  "main": "main.js",
+  "bin": {
+    "calculator": "./main.js"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/.bin/jest",
+    "start": "node main.js"
+  },
+  "devDependencies": {
+    "eslint": "^9.2.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-node": "^11.1.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.2.5"
+  },
+  "dependencies": {
+    "prompts": "^2.4.2"
+  }
+}
